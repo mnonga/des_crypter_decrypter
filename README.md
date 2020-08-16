@@ -6,4 +6,8 @@ Ce projet est realisé par l'étudiant **NONGA MAHUKOLA Michéé**
 ## Outils
 - Python 3.6 et au dessus  
 - Installer la bibliotheque python **pycryptodomex**  
-  ````pip3 install pycryptodomex````
+  ````$ pip3 install pycryptodomex````
+
+## Lancer l'application
+
+````$ python3 des_crypter_decrypter.py text à crypter````
