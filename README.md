@@ -20,7 +20,7 @@ Ce projet est realisé par l'étudiant **NONGA MAHUKOLA Michéé**
 - Structure	: schéma de Feistel  
 ![Schéma de Feistel](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Sch%C3%A9ma_de_Feistel.svg/299px-Sch%C3%A9ma_de_Feistel.svg.png)
 - Nombre de tours :	16 tours du DES
-- Attaques :	Cryptanalyse, Attaque par force brute, Linéaire / Différentielle
+- Attaques :	Cryptanalyse, Attaque par force brute, Linéaire / Différentielle  
 Dans le mode **Cipher Block Chaining (CBC)**, on applique sur chaque bloc un **OU exclusif** avec le chiffrement du bloc précédent avant qu’il soit lui-même chiffré. De plus, afin de rendre chaque message unique, un vecteur d'initialisation (IV) est utilisé.
 
 # Details de l'implementation
