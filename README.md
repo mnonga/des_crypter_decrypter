@@ -12,6 +12,16 @@ Ce projet est realisé par l'étudiant **NONGA MAHUKOLA Michéé**
 
 ````$ python3 des_crypter_decrypter.py text à crypter````
 
+# A propos du DES (Data Encryption Standard)[https://fr.wikipedia.org/wiki/Data_Encryption_Standard]
+
+Le Data Encryption Standard (DES, prononcer /dɛs/) est un algorithme de chiffrement symétrique (chiffrement par bloc) utilisant des clés de 56 bits. Son emploi n'est plus recommandé aujourd'hui, du fait de sa lenteur à l'exécution et de son espace de clés trop petit permettant une attaque systématique en un temps raisonnable. Quand il est encore utilisé c'est généralement en Triple DES, ce qui ne fait rien pour améliorer ses performances. DES a notamment été utilisé dans le système de mots de passe UNIX.  
+
+### Caractéristiques
+- Taille(s) du bloc :	64 bits
+- Longueur(s) de la clé :	56 bits
+- Structure	: schéma de Feistel
+- Nombre de tours :	16 tours du DES
+
 # Details de l'implementation
 
 ````python
