@@ -19,8 +19,10 @@ Le Data Encryption Standard (DES, prononcer /dɛs/) est un algorithme de chiffre
 ### Caractéristiques
 - Taille(s) du bloc :	64 bits
 - Longueur(s) de la clé :	56 bits
-- Structure	: schéma de Feistel
+- Structure	: schéma de Feistel  
+![Schéma de Feistel](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Sch%C3%A9ma_de_Feistel.svg/299px-Sch%C3%A9ma_de_Feistel.svg.png)
 - Nombre de tours :	16 tours du DES
+- Attaques :	Cryptanalyse, Attaque par force brute, Linéaire / Différentielle
 
 # Details de l'implementation
 
