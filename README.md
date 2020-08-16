@@ -4,7 +4,7 @@ Projet d'examen de **Sécurité informatique** pour les étudiants en L2 Genie i
 Ce projet est realisé par l'étudiant **NONGA MAHUKOLA Michéé**  
 
 ## Outils
-- Python 3.6 et au dessus  
+- Environnement : Python 3.6 et au dessus  
 - Installer la bibliotheque python **pycryptodomex**  
   ````$ pip3 install pycryptodomex````
 
@@ -13,9 +13,7 @@ Ce projet est realisé par l'étudiant **NONGA MAHUKOLA Michéé**
 ````$ python3 des_crypter_decrypter.py text à crypter````
 
 # A propos du DES (Data Encryption Standard)[https://fr.wikipedia.org/wiki/Data_Encryption_Standard]
-
-Le Data Encryption Standard (DES, prononcer /dɛs/) est un algorithme de chiffrement symétrique (chiffrement par bloc) utilisant des clés de 56 bits. Son emploi n'est plus recommandé aujourd'hui, du fait de sa lenteur à l'exécution et de son espace de clés trop petit permettant une attaque systématique en un temps raisonnable. Quand il est encore utilisé c'est généralement en Triple DES, ce qui ne fait rien pour améliorer ses performances. DES a notamment été utilisé dans le système de mots de passe UNIX.  
-
+**Le Data Encryption Standard (DES)** est un algorithme de chiffrement symétrique (chiffrement par bloc) utilisant des clés de 56 bits.
 ### Caractéristiques
 - Taille(s) du bloc :	64 bits
 - Longueur(s) de la clé :	56 bits
@@ -23,6 +21,7 @@ Le Data Encryption Standard (DES, prononcer /dɛs/) est un algorithme de chiffre
 ![Schéma de Feistel](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Sch%C3%A9ma_de_Feistel.svg/299px-Sch%C3%A9ma_de_Feistel.svg.png)
 - Nombre de tours :	16 tours du DES
 - Attaques :	Cryptanalyse, Attaque par force brute, Linéaire / Différentielle
+Dans le mode **Cipher Block Chaining (CBC)**, on applique sur chaque bloc un **OU exclusif** avec le chiffrement du bloc précédent avant qu’il soit lui-même chiffré. De plus, afin de rendre chaque message unique, un vecteur d'initialisation (IV) est utilisé.
 
 # Details de l'implementation
 
